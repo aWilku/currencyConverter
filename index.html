@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wolf Kalkulator - przelicznik walut</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/globalStyle.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/form.css">
+<script defer src="js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Wolf Kalkulator</h1>
+    </header>
+
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Przelicz z:</legend>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Kwota w PLN:
+                    </span>
+                    <input class="form__field js-amount" name="amount" type="number" min="0.01" max="999999999"
+                        step="0.01" placeholder="Wpisz kwotę" required>
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Przelicz na:</legend>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Waluta:
+                    </span>
+                    <select class="form__field js-requestedCurrency" name="requestedCurrency" required>
+                        <option value="" disabled selected>Wybierz walutę</option>
+                        <option value="EUR">EUR</option>
+                        <option value="CHF">CHF</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </label>
+            </p>
+        </fieldset>
+
+        <p>
+            <button class="form__button">Przelicz</button>
+        </p>
+
+        <fieldset class="form__fieldset form__fieldset--special">
+            <legend class="form__legend">Otrzymasz:</legend>
+            <p><strong class="js-score"></strong></p>
+        </fieldset>
+
+        <p>
+            <button class="form__button" type="reset">Wyczyść kalkulator</button>
+        </p>
+    </form>
+</body>
+
+</html>

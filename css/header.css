@@ -1,0 +1,12 @@
+.header {
+    background-color: #254870;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.header__title {
+    color: #ffffff;
+    margin: 5px;
+}
