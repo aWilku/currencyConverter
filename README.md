@@ -3,7 +3,7 @@
 ## :computer: Page preview
 [Demo currency converter](https://awilku.github.io/currencyConverter/)
 ## :page_facing_up: Description
-As a participant in the [YouCode](https://youcode.pl/frontend-developer/) course, I created a simple currency converter wchich will help you convert PLN into some of the most popular currencies such as USD, EUR, GBP and CHF.
+As a participant in the [YouCode](https://youcode.pl/frontend-developer/) course, I created a simple currency converter which will help you convert PLN into some of the most popular currencies such as USD, EUR, GBP and CHF.
 ## :receipt:Instruction
 
 1. Write your amount in "Kwota w PLN" field.
