@@ -1,8 +1,10 @@
 .form {
-    background-color: #e0e0e0;
+    background-color: #ffffff26;
+    color: #ffffff;
     border: 2px solid #d6d6d6;
     border-radius: 10px;
     padding: 10px;
+    margin: 20px;
 }
 
 .form__fieldset {
@@ -18,9 +20,8 @@
 
 .form__legend {
     text-align: center;
-    background-color: #fac517;
-    color: #254870;
-    border: 2px solid #254870;
+    background-color: #254870;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 5px 20px;
     font-size: 18px;
@@ -44,11 +45,12 @@
     width: 100%;
     max-width: 300px;
 }
+
 .form__button {
     width: 100%;
     background-color: #254870;
     color: #ffffff;
-    border: none;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
