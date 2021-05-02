@@ -13,7 +13,7 @@ As a participant in the [YouCode](https://youcode.pl/frontend-developer/) course
 5. If you want to clear all fields, click on the "Wyczyść kalkulator" button.
 6. You can repeat the above steps with other currencies 
 
-![trailer-Converter.gif](https://i.postimg.cc/nrntRnb1/trailer-Converter.gif)
+![trailer.gif](https://i.postimg.cc/sfT8Vsdb/trailer.gif)
 ## :gear:Technologies used
 - HTML
 - CSS
