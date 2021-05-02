@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    line-height: 1.8;
 }
 
 *, ::after, ::before {
@@ -9,8 +8,6 @@ html {
 }
 
 body {
-    max-width: 700px;
-    width: 100%;
     margin: auto;
     background-image: url("../images/background.jpg");
     background-color: #f0f0f0;
