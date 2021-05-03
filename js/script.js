@@ -16,14 +16,14 @@
     }
   }
 
-  const score = document.querySelector(".js-score");
+  const textResult = document.querySelector(".js-result");
 
-  const scoreUpdate = (amount, result, requestedCurrency) => {
-    score.innerHTML = `${amount} PLN = ${result} ${requestedCurrency}`;
+  const resultUpdate = (amount, result, requestedCurrency) => {
+    textResult.innerHTML = `${amount} PLN = ${result} ${requestedCurrency}`;
   }
 
-  const scoreReset = () => {
-    score.innerText = "";
+  const resultReset = () => {
+    textResult.innerHTML = "";
   };
 
   const onFormSubmit = (event) => {
@@ -35,13 +35,13 @@
     const amount = +amountElement.value;
     const result = calculateResult(requestedCurrency, amount);
 
-    scoreUpdate(amount, result, requestedCurrency);
+    resultUpdate(amount, result, requestedCurrency);
   }
 
   const init = () => {
     const formElement = document.querySelector(".js-form");
     formElement.addEventListener("submit", onFormSubmit);
-    formElement.addEventListener("reset", scoreReset);
+    formElement.addEventListener("reset", resultReset);
   };
   init();
 }
